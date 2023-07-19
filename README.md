@@ -1,5 +1,6 @@
 # Universal Opepen
-Customizable on-chain Opepen. One for every address. Soulbounded.
+Customizable on-chain Opepen. One for every address. Soulbounded.  
+Built with [USBT](https://github.com/eldief/USBT). 
 
 <img src="/img/example.png" width="512" height="512">
 
