@@ -19,7 +19,7 @@ Built with [USBT](https://github.com/eldief/USBT).
 
 
 ### From Contract
-[0x1fE3899a6fD2bbe03545b3767519Df374280B5Ba](https://goerli.etherscan.io/address/0x1fe3899a6fd2bbe03545b3767519df374280b5ba#writeContract)
+[0x33FD90cE7af574A87963b6eB6c4389727Cc53F6a](https://goerli.etherscan.io/address/0x33FD90cE7af574A87963b6eB6c4389727Cc53F6a#writeContract)
 
 - Go to write tab
 - Click on `claim` and input your colors in the following format: `[0x865207,0x865207,0x865207,0x865207,0x101C80,0xA8A4F9,0x101C80,0xA8A4F9,0x675E61,0x89918C,0xB0AF9A,0xBDC6B2,0x675E61,0x000000,0xB0AF9A,0x000000,0x675E61,0x89918C,0xB0AF9A,0xBDC6B2,0x000000]`
