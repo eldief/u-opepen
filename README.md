@@ -1,16 +1,16 @@
 # U-Opepen
 Customizable on-chain Opepen. One for every address. Soulbounded.  
 
-Built with [USBT](https://github.com/eldief/USBT). 
+Built with [Univesal Soulbound Token](https://github.com/eldief/USBT). 
 
 <img src="/img/example.png" width="512" height="auto">
 
 ## Contract Addresses
-Mainnet: [0xEb5D0a9268d3412F274f90D44aF3957501D3E315](0xEb5D0a9268d3412F274f90D44aF3957501D3E315)  
+Mainnet: [0xEb5D0a9268d3412F274f90D44aF3957501D3E315](https://etherscan.io/address/0xEb5D0a9268d3412F274f90D44aF3957501D3E315)  
 Goerli: [0x33FD90cE7af574A87963b6eB6c4389727Cc53F6a](https://goerli.etherscan.io/address/0x33FD90cE7af574A87963b6eB6c4389727Cc53F6a)
 
 ## Mint via Website
-[u-opepen.xyz](u-opepen.xyz)
+[u-opepen.xyz](http://www.u-opepen.xyz/)
 
 - Connect Wallet
 - Select Network via Metamask (Mainnet or Goerli)
