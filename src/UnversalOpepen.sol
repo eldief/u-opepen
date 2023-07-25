@@ -71,6 +71,20 @@ contract UnversalOpepen is USBT {
         _burn();
     }
 
+    function claimed(address account) external view returns (bool) {
+        uint256 tokenId = uint256(uint160(account));
+        uint256 tokenData = _tokenData[tokenId];
+        
+        return tokenData & 1 == 1;
+    }
+
+    function burned(address account) external view returns (bool) {
+        uint256 tokenId = uint256(uint160(account));
+        uint256 tokenData = _tokenData[tokenId];
+
+        return tokenData & 2 == 2;
+    }
+
     function color(uint256 tokenId, uint256 slot) external view validTokenId(tokenId) returns (bytes3) {
         if (slot > 20) revert InvalidSlot();
 

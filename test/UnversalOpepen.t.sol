@@ -38,6 +38,27 @@ contract UniversalOpepenTest is Test {
         vm.stopPrank();
     }
 
+    function testClaimed(bytes3[21] memory claimColors) public {
+        vm.startPrank(operator, operator);
+
+        assertFalse(uOpepen.claimed(operator));
+
+        uOpepen.claim(claimColors);
+        assertTrue(uOpepen.claimed(operator));
+    }
+
+    function testBurned(bytes3[21] memory claimColors) public {
+        vm.startPrank(operator, operator);
+
+        assertFalse(uOpepen.burned(operator));
+
+        uOpepen.claim(claimColors);
+        assertFalse(uOpepen.burned(operator));
+
+        uOpepen.burn();
+        assertTrue(uOpepen.burned(operator));
+    }
+
     function testEdit(bytes3[21] memory claimColors, bytes3[21] memory editColors) public {
         vm.startPrank(operator, operator);
 
